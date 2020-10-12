@@ -25,7 +25,7 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/varios009/lede-s2r
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: r2s.config
