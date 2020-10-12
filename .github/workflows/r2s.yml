@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt-r2s
+name: Build OpenWrt-r2s-passwall
 
 on:
   repository_dispatch:
@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - 'r2s.config'
+      - 'r2s-passwall.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
