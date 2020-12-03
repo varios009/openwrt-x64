@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt-x64-passwall
+name: OpenWrt-x64-passwall
 
 on:
   repository_dispatch:
@@ -25,9 +25,9 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
-  FEEDS_CONF: x64-passwallfeeds.conf.default
+  FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x64-passwall.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
