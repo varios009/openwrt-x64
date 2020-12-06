@@ -22,7 +22,7 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt openwrt19
+  REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: Lienol-281677160-feeds.conf.default
   CONFIG_FILE: Lienol-281677160-x64-passwall.config
