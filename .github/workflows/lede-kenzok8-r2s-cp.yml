@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: lede-kenzok8-r2s-openclash
+name: lede-kenzok8-r2s-cp
 
 on:
   repository_dispatch:
