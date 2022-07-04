@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: lede-kenzok8-r2s-passwall
+name: lede5.4-kenzok8-r2s-passwall
 
 on:
   repository_dispatch:
